@@ -152,8 +152,10 @@ def plot_condition_averages(sequences, conditions, warp = True):
 
 			ax = plt.gca()
 
-			ax.xaxis.set_visible(False)
+			# ax.xaxis.set_visible(False)
 			ax.yaxis.set_visible(False)
+
+			plt.xticks([0, 32, 66, 99], [0, 100, 200, 300])
 
 	plt.tight_layout()
 
