@@ -154,8 +154,9 @@ def plot_condition_averages(sequences, conditions, warp = True):
 
 			# ax.xaxis.set_visible(False)
 			ax.yaxis.set_visible(False)
-			ax.tick_params(axis='x', which='bottom', direction='out')
+
 			plt.xticks([0, 32, 66, 99], [0, 100, 200, 300])
+			ax.tick_params(axis='x', which='both', direction='out')
 
 	plt.tight_layout()
 
