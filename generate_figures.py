@@ -9,7 +9,11 @@ import numpy as np
 from scipy.io import loadmat
 
 import matplotlib
-# matplotlib.use("pdf")
+"""
+The right matplotlib backend will need to be selected for your system.
+"""
+matplotlib.use("pdf")
+
 
 import matplotlib.pyplot as plt
 
