@@ -17,13 +17,12 @@ The output files will appear in the `out` subdirectory.
 Dependencies
 ------------
 
-This code was written for Python 2.  The following packages are required:
+This code was written for Python 2 -- it should at least work with 2.7.15.  The following packages are required:
 
 ```
 numpy
 matplotlib
 cython
-distutils
 scipy
 ```
 
